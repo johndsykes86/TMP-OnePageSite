@@ -1,0 +1,56 @@
+/*One Page Project
+Johnathon Sykes @mrjsykes
+hireme@mrjsykes.com*/
+
+/*================================================================
+Project styles
+ =================================================================*/
+
+
+body {
+  text-align: center;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+
+
+ /*================================================================
+   Header and Navigation styles
+  =================================================================*/
+
+  .header{
+    background: url('../img/header.png') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color:white;
+  }
+
+  .intro{
+    background-color:inherit;
+  }
+
+  .nav a {
+    color: white;
+    padding: 20px;
+  }
+
+
+  .companyname img{
+    padding: 20px;
+  }
+
+
+
+
+
+
+  /*================================================================
+  Signup styles
+   =================================================================*/
+  .signup {
+    background-color: #f88f7a;
+    color: white;
+  }
