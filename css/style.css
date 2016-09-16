@@ -11,8 +11,12 @@ body {
   text-align: center;
 }
 
-.space {
+.space-top {
   margin-top: 40px;
+}
+
+.space-bottom {
+  margin-bottom: 40px;
 }
 
 
@@ -26,6 +30,7 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     color:white;
+
   }
 
   .intro{
@@ -48,9 +53,29 @@ body {
 
 
   /*================================================================
-  Signup styles
+  Signup and form styles
    =================================================================*/
   .signup {
     background-color: #f88f7a;
     color: white;
+    padding: 10px;
+  }
+
+  .form-inline{
+    margin: 20px 10px 10px 0;
+  }
+
+  .form-inline button{
+    border: 3px solid white;
+    background-color: inherit;
+    width: 169px;
+    height: 39px;
+    padding: 2px;
+    font-size: 20px;
+
+  }
+
+  .signup h2, .form-group, .btn-group {
+    padding: 10px;
+
   }
