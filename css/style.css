@@ -19,6 +19,11 @@ body {
   margin-bottom: 40px;
 }
 
+.type {
+  margin: 0 30px 0 30px;
+}
+
+
 
 
  /*================================================================
@@ -33,9 +38,14 @@ body {
 
   }
 
+  .header h1 {
+    font-size: 60px;
+  }
+
   .intro{
     background-color:inherit;
   }
+
 
   .nav a {
     color: white;
@@ -61,6 +71,10 @@ body {
     padding: 10px;
   }
 
+  .signup h2 {
+    font-size: 36px;
+  }
+
   .form-inline{
     margin: 20px 10px 10px 0;
   }
@@ -72,10 +86,40 @@ body {
     height: 39px;
     padding: 2px;
     font-size: 20px;
-
   }
 
   .signup h2, .form-group, .btn-group {
     padding: 10px;
-
   }
+
+  /*================================================================
+  Main styles
+   =================================================================*/
+   .main h4 {
+     margin-top: 30px;
+   }
+
+   .main h1 {
+     font-size: 48px;
+   }
+
+
+   /*================================================================
+   Services styles
+    =================================================================*/
+    .services {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .services h4 {
+      font-size: 16px;
+    }
+
+    .square {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border: 15px solid #f2f2f2;
+    }
