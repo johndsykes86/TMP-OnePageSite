@@ -22,7 +22,7 @@ body {
   margin: 0 30px 0 30px;
 }
 
-.container-main {
+.container {
   width: 1100px;
   margin: 0 auto;
 }
@@ -37,6 +37,7 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     color:white;
+    width: 100%;
 
   }
 
