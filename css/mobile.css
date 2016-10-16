@@ -18,17 +18,22 @@ Project styles
 Header and Nav styles
  =================================================================*/
 
-
-.companyname img{
-  padding: 10px;
-}
-
-.companyname p {
+.companyname p{
   display:none;
 }
 
- .nav a {
-   padding: 10px;
+.companyname img {
+  display: block;
+  padding: 50px;
+  margin: auto;
+}
+
+.nav {
+  margin: 40px;
+}
+
+.nav a {
+   padding: 5px;
  }
 
 
