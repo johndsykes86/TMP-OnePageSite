@@ -22,7 +22,7 @@ Main styles
 }
 
 /*================================================================
-testimonial styles
+Testimonial styles
  =================================================================*/
 
 .testimonial blockquote{
@@ -32,4 +32,17 @@ testimonial styles
 
 .testimonial {
   padding: 75px;
+}
+
+/*================================================================
+meet-team styles
+ =================================================================*/
+
+.meet-team button {
+  border: 3px solid black;
+  background-color: inherit;
+  width: 185px;
+  height: 40px;
+  padding: 2px;
+  font-size: 20px;
 }
